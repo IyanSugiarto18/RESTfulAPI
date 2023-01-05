@@ -103,7 +103,7 @@ class MahasiswaController extends ResourceController
             ];
             return $this->respondDeleted($response);
         } else {
-            return $this->failNotFound('Tidak ada yang berdasarkan ID ' . $id);
+            return $this->failNotFound('Tidak ada yang berdasarkan ID anjim' . $id);
         }
     }
 }
